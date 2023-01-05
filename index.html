@@ -40,14 +40,6 @@
 
       <div class="row align-items-center">
         <div class="col">
-          <img
-            src="data/bibisaoi.jpg"
-            class="rounded float-start img-thumbnail"
-            style="height: 200px"
-            alt="luisa gostosa"
-          />
-        </div>
-        <div class="col">
           <figure class="text-center">
             <blockquote class="blockquote">
               <p>A Luísa é linda de morrer.</p>
@@ -55,7 +47,7 @@
             <figcaption class="blockquote-footer">
               Loiola, <cite title="Source Title">Hugo</cite>
             </figcaption>
-            <div>
+            <div style="margin-top: 20px">
               <audio
                 src="data/X2Download.app - Vance Joy - 'Riptide' Official Video (128 kbps).mp3"
                 autoplay
@@ -66,13 +58,62 @@
             </div>
           </figure>
         </div>
+      </div>
+      <div class="row" style="margin: 10px; padding: 150px">
         <div class="col">
-          <img
-            src="data/bibisaverde.jpg"
-            class="rounded float-end img-thumbnail"
-            style="height: 200px"
-            alt="luisa de verde"
-          />
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="data/bibisaverde.jpg"
+                  class="d-block w-100 img-thumbnail"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="data/bibisaverde.jpg "
+                  class="d-block w-100 img-thumbnail"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="data/bibisaoi.jpg"
+                  class="d-block w-100 img-thumbnail"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
     </main>
